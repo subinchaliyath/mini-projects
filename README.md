@@ -1,2 +1,2 @@
 
-## To play with HTML, CSS, Javscript
+## To play with HTML, CSS, Javascript
