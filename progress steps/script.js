@@ -29,5 +29,13 @@ const update=()=>{
 
     })
     const actives= document.querySelectorAll('.active')
-    progress.style.width=(actives.length-1)/(circles.length-1)*99.9+'%'
+    progress.style.width=(actives.length-1)/(circles.length-1)*99.9+'%';
+    if(count===1){
+        prev.disabled=true;
+    }else if(count===circles.length){
+            next.disabled=true;
+    }else{
+        prev.disabled=false
+        next.disabled=false
+    }
 }
